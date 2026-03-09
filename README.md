@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Proyecto NestJS + TypeORM — IAW
 
 API REST con NestJS y TypeORM (BD MySQL). El proyecto incluye múltiples CRUD funcionales (recambios, usuarios, películas, pokémon) tanto en memoria como con base de datos real.
 
 ## Módulos implementados
+=======
+# Proyecto NestJS + TypeORM — IAW
+
+API REST con NestJS y TypeORM (BD MySQL). El proyecto incluye múltiples CRUD funcionales (recambios, usuarios, películas, pokémon) tanto en memoria como con base de datos real.
+
+## Módulos implementados
+>>>>>>> 36ecf783a52c2c38eb8aba86a6f9e381238fb39c
 
 | Módulo                    | Descripción                                                                                | README                                                         |
 | ------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------- |
@@ -25,7 +33,11 @@ DB_NAME=nestjs_db
 DB_SYNC=true
 ```
 
+<<<<<<< HEAD
 ## Ejecución
+=======
+## Ejecución
+>>>>>>> 36ecf783a52c2c38eb8aba86a6f9e381238fb39c
 
 ```bash
 npm install
