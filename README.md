@@ -1,6 +1,6 @@
 # Proyecto NestJS + TypeORM — IAW
 
-API REST con NestJS y TypeORM (BD MySQL). El proyecto incluye múltiples CRUD funcionales (recambios, usuarios, películas, pokémon) tanto en memoria como con base de datos real.
+API REST con NestJS y TypeORM (BD MySQL). El proyecto incluye múltiples CRUD funcionales (recambios, usuarios) tanto en memoria como con base de datos real.
 
 ## Módulos implementados
 
@@ -9,8 +9,6 @@ API REST con NestJS y TypeORM (BD MySQL). El proyecto incluye múltiples CRUD fu
 | `evaluacion/`             | Tarea: Recurso Evaluación (alumnos, profesores, exámenes, prácticas).                      | [README-RECURSO-EVALUACION.md](./README-RECURSO-EVALUACION.md) |
 | `recambios/`              | Almacén (proveedores, piezas, categorías, suministros). Relaciones N:N y tabla intermedia. | [README-RECAMBIOS.md](./README-RECAMBIOS.md)                   |
 | `posts/` + `users/`       | Publicaciones. Relación 1:N entre usuario y posts.                                         | [README-MENSAJES.md](./README-MENSAJES.md)                     |
-| `peliculas/`              | CRUD básico con filtros en memoria (sin BD).                                               | [README-PELICULAS.md](./README-PELICULAS.md)                   |
-| `pokemon/`                | CRUD con filtros numéricos en memoria (sin BD).                                            | [README-POKEMON.md](./README-POKEMON.md)                       |
 | `products/` + `sizes/`    | Productos con tallas. Relación N:N con tabla intermedia (precio).                          | —                                                              |
 | `productos2/` + `tallas/` | Segunda versión completa con TypeORM.                                                      | —                                                              |
 
